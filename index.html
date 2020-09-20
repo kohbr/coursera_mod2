@@ -3,24 +3,53 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="KohBr">
+
+<style>
+* {
+  box-sizing:border-box;
+}
+
+.left {
+  background-color:#2196F3;
+  padding:20px;
+  float:left;
+  width:20%; /* The width is 20%, by default */
+}
+
+.main {
+  background-color:#f1f1f1;
+  padding:20px;
+  float:left;
+  width:60%; /* The width is 60%, by default */
+}
+
+.right {
+  background-color:#4CAF50;
+  padding:20px;
+  float:left;
+  width:20%; /* The width is 20%, by default */
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .left, .main, .right {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+</style>
 <title>Assignement Solution for Module 2</title>
 </head>
-<header><h1 align="center">My pets</h1></header>
-<body>
-<div style="border:1px solid black"><h3 style="border: 1px solid black; background-color:DodgerBlue;" align="right"><B>Brazilian people shout: ELE NÃO!</B></h3>
-<span align="justify">
-<p>Many Brazilian still shout "Fora Bolsonaro!", asking for the president J. Bolsonaro to leave, and "Ele não!", because they don't support his behaviour and actions towards the country.</p></span></div>
-
-<div align="right" border="5px"><h3><B>Brazilian people shout: ELE NÃO!</B></h3>
-<span align="justify">
-<p>Many Brazilian still shout "Fora Bolsonaro!", asking for the president J. Bolsonaro to leave, and "Ele não!", because they don't support his behaviour and actions towards the country.</p></span></div>
-
-<div align="right" border="5px"><h3><B>Brazilian people shout: ELE NÃO!</B></h3>
-<span align="justify">
-<p>Many Brazilian still shout "Fora Bolsonaro!", asking for the president J. Bolsonaro to leave, and "Ele não!", because they don't support his behaviour and actions towards the country.</p></span></div>
 
 
-</div>
+<body style="font-family: verdana;">
+<header><h1 align="center" style="font-family: verdana;font-size:175%">My pets</h1></header>
+
+
+<div style="border:1px solid black; padding: 10xp"><h3 style="border: 1px solid black; background-color:Lavender; font-size: 125%; " align="right"><B>Brazilian people shout: ELE NÃO!</B></h3>
+<span align="justify" style="padding: 10xp">
+<p style="padding: 10xp">Many Brazilian still shout "Fora Bolsonaro!", asking for the president J. Bolsonaro to leave, and "Ele não!", because they don't support his behaviour and actions towards the country.</p></span></div>
+
 
 </body>
 
